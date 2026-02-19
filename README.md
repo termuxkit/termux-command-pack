@@ -17,28 +17,30 @@ It adds extra commands to make the terminal easier and faster to use.
 - lookat <folder> – list contents of a folder  
 - cmds – list all custom commands  
 
-# Installation
+## Installation
 
-```bash
+1. Give Termux storage permission (one time only):
+termux-setup-storage
+
+2. Clone the repository:
 git clone https://github.com/termuxkit/termux-command-pack.git
+
+3. Go into the folder:
 cd termux-command-pack
+
+4. Make the installer executable:
 chmod +x installer.sh
+
+5. Run the installer:
 ./installer.sh
-```
 
-# Usage
+6. Reload bash:
+source ~/.bashrc
 
-```bash
+Done!
+Type:
 cmds
-show
-files
-filesall
-empty
-where
-home
-up
-lookat .config
-```
+to see available commands.
 
 # Uninstall
 
