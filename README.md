@@ -1,4 +1,4 @@
-# Termux CommandPack
+# Termux Command Pack
 
 A simple command expansion pack for Termux using Bash aliases and functions.  
 It adds extra commands to make the terminal easier and faster to use.
@@ -20,8 +20,8 @@ It adds extra commands to make the terminal easier and faster to use.
 # Installation
 
 ```bash
-git clone https://github.com/YOURUSERNAME/termux-commandpack.git
-cd termux-commandpack
+git clone https://github.com/termuxkit/termux-command-pack.git
+cd termux-command-pack
 chmod +x installer.sh
 ./installer.sh
 ```
@@ -46,6 +46,21 @@ lookat .config
 sed -i '/cmdpack.sh/d' ~/.bashrc
 rm -rf ~/cmdpack
 source ~/.bashrc
+```
+
+# Customization
+
+Edit `cmdpack.sh` to add or remove commands.
+
+# Safety
+
+- No root required  
+- Only edits ~/.bashrc  
+- Easy to remove  
+
+# License
+
+Free to use and modify. source ~/.bashrc
 ```
 
 # Customization
